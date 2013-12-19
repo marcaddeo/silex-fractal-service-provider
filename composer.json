@@ -18,7 +18,8 @@
         }
     ],
     "require-dev": {
-        "silex/silex": "~1.0"
+        "silex/silex": "~1.0",
+        "league/fractal": "0.5.*"
     },
     "autoload": {
         "psr-0": {

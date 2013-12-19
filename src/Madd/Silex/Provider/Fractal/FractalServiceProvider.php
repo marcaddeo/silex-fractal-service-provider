@@ -1,11 +1,11 @@
 <?php
-namespace Madd\Silex\Provider\Fracatal;
+namespace Madd\Silex\Provider\Fractal;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 
 /**
- * Service provider for Silex
+ * Service provider to expose Fractal to Silex
  */
 class FractalServiceProvider implements ServiceProviderInterface
 {
@@ -20,14 +20,19 @@ class FractalServiceProvider implements ServiceProviderInterface
          * Set up our shared instance of the Fractal Manager
          */
         $app['fractal'] = $app->share(function () {
-            return new Fractal\Manager;
+            return new \League\Fractal\Manager;
         });
+
+        /**
+         * Set the default scope identifier
+         */
+        $app['fractal.scope_identifier'] = 'embed';
 
         /**
          * We need to add a request listener for Fractal to set its embeds.
          * We can't do that here, as the request has yet to be instantiated.
          */
-        $app['fractal.request_listener'] = $app->share(function () use ($app) {
+        $app['fractal.request_listener'] = $app->share(function (Application $app) {
             return new FractalRequestListener($app);
         });
     }

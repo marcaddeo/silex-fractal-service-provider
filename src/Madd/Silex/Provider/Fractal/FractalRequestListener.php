@@ -38,8 +38,9 @@ class FractalRequestListener implements EventSubscriberInterface
         if ($event->getRequestType() === HttpKernel::MASTER_REQUEST) {
             $fractal = $this->app['fractal'];
             $request = $this->app['request'];
+            $scope   = $this->app['fractal.scope_identifier'];
 
-            $fractal->setRequestedScopes(explode(',', $request->get('embed')));
+            $fractal->setRequestedScopes(explode(',', $request->get($scope)));
         }
     }
 }
