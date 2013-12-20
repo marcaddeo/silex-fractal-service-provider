@@ -1,5 +1,5 @@
 {
-    "name": "marcaddeo/fractal-service-provider",
+    "name": "madd/fractal-service-provider",
     "description": "A Silex Service Provider for Fractal",
     "keywords": [
         "fractal",
