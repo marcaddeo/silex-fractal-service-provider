@@ -1,7 +1,7 @@
 # FractalServiceProvider
-[![Build Status](https://travis-ci.org/marcaddeo/fractal-service-provider.png?branch=master)](https://travis-ci.org/marcaddeo/fractal-service-provider)
-[![Coverage Status](https://coveralls.io/repos/marcaddeo/fractal-service-provider/badge.png)](https://coveralls.io/r/marcaddeo/fractal-service-provider)
-[![Latest Stable Version](https://poser.pugx.org/madd/fractal-service-provider/v/stable.png)](https://packagist.org/packages/madd/fractal-service-provider)
+[![Build Status](https://travis-ci.org/marcaddeo/silex-fractal-service-provider.png?branch=master)](https://travis-ci.org/marcaddeo/silex-fractal-service-provider)
+[![Coverage Status](https://coveralls.io/repos/marcaddeo/silex-fractal-service-provider/badge.png)](https://coveralls.io/r/marcaddeo/silex-fractal-service-provider)
+[![Latest Stable Version](https://poser.pugx.org/madd/silex-fractal-service-provider/v/stable.png)](https://packagist.org/packages/madd/silex-fractal-service-provider)
 [![Total Downloads](https://poser.pugx.org/madd/silex-fractal-service-provider/downloads.png)](https://packagist.org/packages/madd/silex-fractal-service-provider)
 
 [Fractal](https://github.com/php-loep/fractal) Service Provider for Silex
