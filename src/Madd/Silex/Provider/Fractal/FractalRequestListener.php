@@ -24,6 +24,11 @@ class FractalRequestListener implements EventSubscriberInterface
      */
     protected $app;
 
+    /**
+     * Constructor method
+     *
+     * @param Silex\Application The application object
+     */
     public function __construct(Application $app)
     {
         $this->app = $app;
