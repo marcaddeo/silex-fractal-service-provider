@@ -19,7 +19,8 @@
     ],
     "require-dev": {
         "silex/silex": "~1.0",
-        "league/fractal": "0.5.*"
+        "league/fractal": "0.5.*",
+        "league/phpunit-coverage-listener": "~1.1"
     },
     "autoload": {
         "psr-0": {
