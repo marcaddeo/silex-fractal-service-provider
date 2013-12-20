@@ -38,6 +38,14 @@ print_r($data->toArray());
 ```
 
 
+## TODO
+
+Note: The build is only passing because I have a test that only tests if true is true.. 
+I still have to implement tests.
+
+- [ ] Unit test to fuck
+
+
 ## Testing
 
 ``` bash
