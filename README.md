@@ -26,7 +26,7 @@ Via Composer
 use League\Fractal\Collection;
 
 /**
- * You can set the scope identifier that Fractal uses to get it's embed's here.
+ * You can set the scope identifier that Fractal uses to get its embeds here.
  * If not set here, it will default to 'embed'
  */
 $app->register(new Madd\Silex\Provider\Fractal\FractalServiceProvider, array(
