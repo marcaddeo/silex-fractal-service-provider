@@ -1,5 +1,5 @@
 {
-    "name": "madd/fractal-service-provider",
+    "name": "madd/silex-fractal-service-provider",
     "description": "A Silex Service Provider for Fractal",
     "keywords": [
         "fractal",
@@ -7,7 +7,7 @@
         "service",
         "provider"
     ],
-    "homepage": "https://github.com/marcaddeo/fractal-service-provider",
+    "homepage": "https://github.com/marcaddeo/silex-fractal-service-provider",
     "license": "MIT",
     "authors": [
         {
