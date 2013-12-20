@@ -3,7 +3,7 @@
 [![Total Downloads](https://poser.pugx.org/madd/fractal-service-provider/downloads.png)](https://packagist.org/packages/madd/fractal-service-provider)
 [![Latest Stable Version](https://poser.pugx.org/madd/fractal-service-provider/v/stable.png)](https://packagist.org/packages/madd/fractal-service-provider)
 
-[Fractal](https://github.com/php-leop/fractal) Service Provider for Silex
+[Fractal](https://github.com/php-loep/fractal) Service Provider for Silex
 
 ## Install
 
