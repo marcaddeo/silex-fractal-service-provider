@@ -9,10 +9,10 @@ use Silex\ServiceProviderInterface;
  */
 class FractalServiceProvider implements ServiceProviderInterface
 {
-
     /**
      * Register Service Provider
-     * @param Application $app Silex application instance
+     *
+     * @param Silex\Application $app Silex application object
      */
     public function register(Application $app)
     {
@@ -37,9 +37,9 @@ class FractalServiceProvider implements ServiceProviderInterface
         });
     }
 
-
     /**
      * Boot Method
+     *
      * @param Aplication $app Silex application instance
      * @codeCoverageIgnore
      */
